@@ -1,0 +1,17 @@
+{
+  "name": "video-chat",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "yarn parcel src/index.html"
+  },
+  "devDependencies": {
+    "parcel": "^2.0.1",
+    "dotenv": "^10.0.0"
+  },
+  "dependencies": {
+    "twilio": "^3.71.3",
+    "twilio-video": "^2.18.1"
+  }
+}
